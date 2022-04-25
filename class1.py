@@ -11,5 +11,4 @@ class Person:
 p1 = Person()
 #3)메스드 호출
 p1.print()
-
         
