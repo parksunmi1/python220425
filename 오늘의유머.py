@@ -23,11 +23,7 @@ for n in range(0,11):
         soup = BeautifulSoup(page, 'html.parser')
 
 #<td class="subject"><a href="/board/view.php?table=">창가의 멍뭉이</a>
-
- # 찾고자하는 태그 스타일 
- #      <span class = "subject_fixed"
- # 
- #        
+     
         list = soup.find_all('td', attrs={'class':'subject'})
 
         for item in list:
